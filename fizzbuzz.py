@@ -2,7 +2,7 @@ import sys
 
 def main():
     N = 100
-    print(f'{N = }', file=sys.stderr)
+    print(f'N = {N:d}', file=sys.stderr)
     for i in range(1, N + 1):
         if i % 3 == 0 and i % 5 == 0:
             print('fizzbuzz')
